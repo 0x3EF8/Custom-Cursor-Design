@@ -1,0 +1,28 @@
+html{
+  background: black;
+  cursor: none !important;
+}
+#pointer-dot{
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  border: 3px solid white;
+  position: absolute;
+  border-radius: 4px;
+  z-index: -1;
+  pointer-events: none;
+  transition: border-color 0.5s;
+}
+#pointer-ring{
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
